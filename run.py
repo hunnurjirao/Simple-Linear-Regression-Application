@@ -3,8 +3,8 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 
 
-w = int(input("enter weight: "))
-p = int(input("enter price: "))
+w = int(input("Enter weight in Kgs: "))
+p = int(input("Enter price for the given weight: "))
 
 weights = []
 price = []
